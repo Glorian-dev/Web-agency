@@ -1,0 +1,67 @@
+body{
+  font-family: 'Caveat', cursive;
+font-family: 'Hind', sans-serif;
+font-family: 'Poppins', sans-serif;
+background-color: #2E4374;
+
+}
+  
+.logo{
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 40px;
+   
+}
+
+h1{
+  color: white;
+  font-size: 4rem; 
+  margin-left: 40px;
+}
+
+span{
+  color: #E1AA74;
+}
+
+.content-image{
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+
+.div1{
+  margin-right: 30px; 
+  margin-left: 40px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading-title{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.paragraph-content{
+  color: white;
+}
+
+.copyright{
+  color: white;
+   
+}
+
+footer{
+  display: flex;
+  justify-content: end;
+  margin-top: 100px;
+}
+.container > .div1 {
+  flex: 1;
+}
